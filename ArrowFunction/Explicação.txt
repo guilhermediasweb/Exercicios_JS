@@ -1,0 +1,4 @@
+Pode usar como tradução "função lâmbida" ou "funções anônimas". Arrow Function é uma função anônima, representada com =>.
+Função anônima irá funcionar a partir da junção com uma variável para ter onde chamar (#1).
+Ao invés de usar o chamado 'function', será usado => (#2).
+É possível o não uso dos {}, mas somente em funções que são simples com um único valor(#3,#3.5) e de uma linha mas, se for construído uma expressão com mais linhas, a {} e return voltam (#). No #3.5, note-se que não foi utilizado o 'return' para finalizar a operação, pois em funções simples, não é necessário uso do mesmo.
