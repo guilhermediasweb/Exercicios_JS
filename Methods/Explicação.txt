@@ -1,0 +1,1 @@
+Methods são functions ativáveis dentro de um objeto. O método tem que ser associado internamente dentro de um objeto (#1). Sempre será necessário a ativação de uma ordem #2. Tudo isso servirá para exemplificar objetos da vida real as suas funções, como por exemplo a capacidade do animal Zeus de latir.
