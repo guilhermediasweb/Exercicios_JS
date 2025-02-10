@@ -1,0 +1,5 @@
+São funções sem nomes associados ao seu corpo de conteúdo. São criadas somente no momento em que são chamadas para executar, diferente das normais que já ficam armazenadas na memória. A função anônima deve ser associada em uma var #1.
+Estudar depois 'CONSTRUTORES'.
+Possível usar as funções anonimas com construtores #2.
+
+EX_003: Função anônima em um evento de clique - Adicionar um evento de clique a um botão HTML usando uma função anônima como manipulador de eventos.
