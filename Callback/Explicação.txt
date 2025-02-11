@@ -1,0 +1,1 @@
+Permite executar uma função após uma ação. Ela irá esperar uma resposta para ter alguma ação. Fundamental para entender a parte de assíncrona do JS (depender de algo para acontecer uma ação). Sem resposta do servidor, sem ação.
