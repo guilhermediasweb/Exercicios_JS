@@ -1,1 +1,34 @@
 Permite executar uma função após uma ação. Ela irá esperar uma resposta para ter alguma ação. Fundamental para entender a parte de assíncrona do JS (depender de algo para acontecer uma ação). Sem resposta do servidor, sem ação.
+
+EX-006 function validarTarefas(tarefas, sucessoCallback, erroCallback) {
+    tarefas.forEach((tarefa) => {
+        setTimeout(() => {
+            if (tarefa.status === "concluída") {
+                sucessoCallback(tarefa);
+            } else {
+                const erro = tarefa.status === "pendente" 
+                    ? "Tarefa ainda não concluída" 
+                    : "Tarefa falhou";
+                erroCallback(tarefa, erro);
+            }
+        }, Math.random() * 2000); // Tempo aleatório para simular assincronia
+    });
+}
+
+// Exemplo de uso:
+const tarefas = [
+    { id: 1, status: "concluída" },
+    { id: 2, status: "pendente" },
+    { id: 3, status: "concluída" },
+    { id: 4, status: "falha" }
+];
+
+validarTarefas(tarefas, 
+    (tarefa) => console.log(`Tarefa ${tarefa.id} validada com sucesso!`),
+    (tarefa, erro) => console.log(`Erro na tarefa ${tarefa.id}: ${erro}`)
+);
+
+Tarefa 1 validada com sucesso!
+Erro na tarefa 2: Tarefa ainda não concluída
+Tarefa 3 validada com sucesso!
+Erro na tarefa 4: Tarefa falhou
