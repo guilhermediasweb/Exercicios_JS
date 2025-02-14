@@ -1,0 +1,7 @@
+Uma classe base instrumentada para tudo oque terá dentro de um objeto, desde métodos, propriedades e valores. Cada objeto irá seguir tudo o que foi construído dentro de sua classe, todo objeto é manipulável de forma independente. Para inicio, deve-se entender os métodos, como o constructor: chama automáticamente um outro objeto instânciado demtro de sua classe. 
+O () do new fica vázio e sua função seria coligar (junto do nome da variável) com o () dentro da classe. Ao instanciar uma classe, não será passado parâmetros.
+O () de constructor pode ser um parâmetro e no caso, segue o var de this. Fazendo o parâmetro de constructor, será obrigatório o seu uso em 'new Pessoa (nome)
+
+EXBase 2
+
+Para chamar qualquer objeto, será construido o método 'info'.
