@@ -1,2 +1,45 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+.CampoForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.CampoForm input{
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.CampoForm button{
+    background-color: #888;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.res{
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.pessoa{
+    border: 3px solid #444;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    width: 200px;
+}
