@@ -3,5 +3,10 @@ O () do new fica vázio e sua função seria coligar (junto do nome da variável
 O () de constructor pode ser um parâmetro e no caso, segue o var de this. Fazendo o parâmetro de constructor, será obrigatório o seu uso em 'new Pessoa (nome)
 
 EXBase 2
+Criação de propriedades para cada objeto.
+Para chamar qualquer objeto de uma vez, será construido o método 'info'.
+Para melhorar mais o código, usar o "template string"(`${}`). O uso do Template String é mais moderno.
+Possível usar metódos para obtenção das propriedades ex: getNome que irá retornar o nome do objeto. Possível retornar tudo com array #array.
+Possivel também ''setar'' os objetos e classes com set (servirá para uma auteração em propriedades). Tudo isso é a orientação padrão e tradicional de JS.
 
-Para chamar qualquer objeto, será construido o método 'info'.
+Usando funções para criar objetos e Objetos Literais - 
