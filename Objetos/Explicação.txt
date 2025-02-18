@@ -9,4 +9,8 @@ Para melhorar mais o código, usar o "template string"(`${}`). O uso do Template
 Possível usar metódos para obtenção das propriedades ex: getNome que irá retornar o nome do objeto. Possível retornar tudo com array #array.
 Possivel também ''setar'' os objetos e classes com set (servirá para uma auteração em propriedades). Tudo isso é a orientação padrão e tradicional de JS.
 
-Usando funções para criar objetos e Objetos Literais EX003 - Criação dinâmica 
+Usando funções para criar objetos e Objetos Literais EX003 - Criação dinâmica
+
+Substituir uma class por function - Seria o mais próximo de 'objetos literais'. Para classe, sempre será usado o método constructor para declarar oq for executado instânciado. Os paramentros pidade e pnome saem do constructor e vão para os () do Function Pessoa (pnome, pidade) e methods seguem a mesma lógica de base para arrow function (não se esquecer do this. em todos os methods). 
+
+Objetos Literais - São diferentes dos convencionais, não existe mais independencia dos objetos, um objeto único referênciado na memória. Variáveis, propriedades, valores tudo irá indicar para o mesmo nome.
