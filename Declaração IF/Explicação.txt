@@ -1,0 +1,2 @@
+Condidional IF que irá englobar e fazer uma ação lógica. Qualquer operador que retorne true ou false poderão ser usados dentro de IF.if(expressão ou teste lógico) Se tiver um comando para o IF executar, não será necessário as {}.
+Else será usado para declarar o que irá acontecer após um comando ser "negado" dentro de IF. Possível aninhar: um IF com comando dentro de outro IF.
