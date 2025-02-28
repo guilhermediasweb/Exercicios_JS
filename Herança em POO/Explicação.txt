@@ -1,1 +1,2 @@
 São classes que herdam métodos e propriedades de classes pai para as filhos. Tudo oq está na classe pai, estará dentro da classe filho. Pode ter qualquer coisa sobre objetos e funções. Extends irá definir a próxima classe que será herdeira.
+Para invocar algo da classe pai para a filho, use Super.
