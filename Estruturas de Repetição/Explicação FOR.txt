@@ -11,3 +11,5 @@ Possível indicar dentro de For IN oq pode ser impresso com .InnerHTML e OBJS.
 
 Loop While - Indefinido. Usar quando não possuir certeza da quantidade de comandos presentes. Fará as interações enquanto a condição for verdadeira.
 
+Do While - While e Do While vão funcionar enquanto a expressão for verdadeira, a expressão com while irá funcionar após o Do, ocorrerá antes a execução da interação. While não possui garantia q o bloco de comando irá ocorrer de primeira, diferente do DO While irá executar primeiro o bloco de comandos e fazer o teste após. 
+
