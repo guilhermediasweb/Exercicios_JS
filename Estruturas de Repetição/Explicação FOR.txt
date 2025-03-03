@@ -9,3 +9,5 @@ FOR IN e FOR OF
 O For OF consegue mudar completamente qualquer texto indicado com InnerHTML.
 Possível indicar dentro de For IN oq pode ser impresso com .InnerHTML e OBJS.
 
+Loop While - Indefinido. Usar quando não possuir certeza da quantidade de comandos presentes. Fará as interações enquanto a condição for verdadeira.
+
