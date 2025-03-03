@@ -1,0 +1,11 @@
+Estruturas que repetem um bloco de comando. Sempre que for preciso repetir um comando, será usado um loop. Repetições = interações. Cada execução repetida, será uma interação. Loops podem ser classificados entre definidos e indefinidos. Definidos usam a quantidade de vezes que precisa inteirar os comandos. indefinidos é o contrário, claro. For é um definido. While e Do While são indefinidos. For será formado por três estruturas: FOR(Inicializador/contador; condição; controle ). O loop só continua se a sua condição for verdadeira. Cuidado para não cair em loop infinito ex; i>=0
+
+FOR IN e FOR OF
+
+#1 - For OF irá inteirar completamente os elementos do Array.
+#2 - For In irá complementar a partir que seja nomeada a coleção do array, parecido com o For normal
+#3 - For normal
+
+O For OF consegue mudar completamente qualquer texto indicado com InnerHTML.
+Possível indicar dentro de For IN oq pode ser impresso com .InnerHTML e OBJS.
+
