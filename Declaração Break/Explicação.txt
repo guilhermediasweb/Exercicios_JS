@@ -1,0 +1,5 @@
+Break irá gerar uma interrupção na função executada.
+
+Continue - se executado dentro de um loop, ele irá parar somente uma execução, mas irá continuar a próxima em seguida. Só não executa a atual e pula para a próxima que continue o looping.
+
+Usar o break somente se for preciso parar um loop(óbvio que sempre dentro de uma condição).
