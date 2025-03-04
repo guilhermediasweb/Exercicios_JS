@@ -1,0 +1,1 @@
+Bloco de comandos que podem ser executados em qualquer momento. O bloco ficará em espera dentro da memória para ser executado. Para funções, é obrigatório ter parenteses(), pois eles serão usados para armazenar os parâmetros da função (função parametizada). Vazias, elas não estarão passando nenhum parâmetro.

@@ -1,0 +1,2 @@
+Funções que retornam valores
+com o comando return, a função irá retornar um valor da função. O exemplo seguirá uma string: Return irá retornar um valor em string para o console.log(canal()). Possível retornar diretamente com uma var. Possível retornar mais de uma vez, mas não funciona tão bem.
