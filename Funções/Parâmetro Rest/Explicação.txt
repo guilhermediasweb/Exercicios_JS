@@ -1,0 +1,2 @@
+Uma forma de passar parâmetros não qual não precisará mostrar a quantidade que será passada para dentro da função, um numero indeterminado de valores.
+...valores dentro de () - a base para valores indeterminados. Em return, valores.lenght para indicar o range de valores. De inicio, ele irá mostrar somente a quantidade de valores.

@@ -1,0 +1,4 @@
+Iniciar a adicionar valores dentro da função. É obrigatório a entrada de valores. Será aceito qualquer valor dentro do valor base da function. O valor escolhido para ativar a função, será redirecionado para o n1 no ex02 (valor padrão do parâmetro). 
+Return só irá funcionar se tiver um console.log para imprimir a função(soma(v1,v2)).
+Possível definir um valor padrão como uma variável e depois utilizar dentro de valores.
+EX3 - Possível mudar o valor da função por fora da mesma. Possível até a não utilização de Return e a nomeação da variável valor, já que o js consegue operar fora da função. 
