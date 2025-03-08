@@ -1,0 +1,1 @@
+Possível usar dentro de funções. This será usado como referência para parâmetros/elementos posicionados dentro de funções. Para arrumar o erro normal, crie uma nova função utilizando o => como prioridade e no fim, chamar a função criada.
