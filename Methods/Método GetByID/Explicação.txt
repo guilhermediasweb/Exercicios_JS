@@ -1,0 +1,1 @@
+Para verificar manipulções no DOM, somente o console do navegador, pois o Node não irá prestar tanto. Node é lado server, navegador é lado cliente. GetElementByID irá server para manipular qualquer coisa que tenha ID dentro de HTML. Possível criar um array dos elementos puxados. Possível tanto usar For quanto o método map dentro de um Array com GetElementByID
