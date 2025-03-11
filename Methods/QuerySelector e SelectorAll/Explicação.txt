@@ -1,0 +1,2 @@
+Até aqui, os métodos usados não são tão especificos para indicar um index, um ''apontador''. O Queryselector pega o objeto que quiser, bem 'genérico' por assim dizer, dependendo dos seus parâmetros indicados. O QueryselectorAll irá selecionar todos.
+#Nodelist seria o HTMLCollection mais antigo.

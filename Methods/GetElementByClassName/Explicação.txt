@@ -1,0 +1,1 @@
+Possível conseguir os elementos através de uma classe (class) que retorna um conjunto de elementos. o !important irá ter uma maior prioridade em modificar o que já estiver estabelicido dentro de uma classe.
