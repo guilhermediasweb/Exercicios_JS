@@ -1,0 +1,1 @@
+A função dela é parar um evento. O evento clicou será colocado dentro da div principal, mas se for clicado em div filho, o evento irá acontecer de qualquer maneira(como se as div estivessem dentro de uma bolha). Para resolver isso, o stoPropagation será usado na div filho, no exemplo será o c1.
