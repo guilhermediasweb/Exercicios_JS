@@ -1,4 +1,15 @@
 @charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 .curso{
     display: flex;
@@ -26,4 +37,16 @@
     background-color: #800 !important;
     color: #ccc !important;
     border-color: #f00 !important;
+}
+.caixa{
+    border: 4px solid #000;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
 }

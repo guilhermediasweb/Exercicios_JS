@@ -1,0 +1,15 @@
+Elementos possuem relação entre pai e filho. Div dentro de div possuem correlação, a div main seria a raiz, já as dos cursos seriam filhos. HTML é a primeira e a última (MySQL) seria a última 'last'. Abaixo de HTML, as div serão chamadas de irmãs "siblings", já a main, será a "parent". Só será considerado parentes as div q estarem dentro de do mesmo main mas, se existir uma div dentro de HTML, HTML se torna o parent desta nova div. Possível analisar com precisão cada elemento dentro do dev tool do Chrome - Elements > Properties. Agora dentro do script, será possível imprimir qualquer div e sua posição na hierarquia paterna - console.log(caixa1.childre[posicionamento numérico]). Para indicar o último div - console.log(caixa1.children[caixa1.children.length-1]). Possível indicar pelo nome direto - caixa1.firstElementChild ou lastElementChild.
+Children para apontar todos.
+Possível apontar para a raiz - getRootNode() ou: console.log(btn_c[0].getRootNode()), propriedade ownerDocument.
+
+P2
+
+child.hasChildNodes() - método que será aplicado para descobrir se a div possui filhos ou não. Irá retornar true ou false. console.log(btn_c[0].childNodes) irá retornar se o nome é tipo texto.
+if(btn_c[0].children.length > 0){
+    console.log("Possui filhos")
+}else{
+    console.log("Não possui filhos")
+} - verificar se possui filhos ou não. console.log(caixa1.children.length > 0 ? "Possui filhos": "Não possui filhos") Possível verificar se possui filhos através de expressão termaria.
+
+Modificar elementos dentro do DOM 
+Possível Modificar qualquer elemento dentro de DOM com console.log(caixa1.firstElementChild.innerHTML="Teste"). Se for necessário mudar a segunda div, basta trocar firstElementChild para Children[N da div]. console.log(c1_2.parentNode.parentNode.children[4]) Indicar a div filha dentro da div caixa1.
