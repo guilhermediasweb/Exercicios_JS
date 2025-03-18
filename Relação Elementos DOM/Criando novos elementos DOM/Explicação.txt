@@ -1,0 +1,7 @@
+Possível criar e anexar a qualquer momento um elemento HTML. O método usado será o createElement. Tudo o que ele irá precisar será indicar qual elemento HTML será usado("div","article","main"). Preciso indicar onde ele será anexado - caixa1.appendChild(novoElemento).
+Se for criado um array dos cursos, será possível usar e manipular todos dentro do script com - cursos.map(()=>)
+
+Remoção de elementos criados
+O ponto central será saber quando remover e como. Após criar o evento de click, será usado o ''removeChild'' dentro da caixa pai 'caixa1'-  novoElemento.addEventListener("click",(evt)=>{
+        caixa1.removeChild(evt.target)
+     })
