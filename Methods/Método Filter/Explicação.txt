@@ -1,0 +1,1 @@
+Ele vai tratar um array e permite retornar determinados elementos deste array, um novo array filtrado. Possível uma função operar os elementos do filter e sepado. Dentro da função, será passado o valor, indice(posição) e o array(não obrigatório o uso de todos os parâmetros).

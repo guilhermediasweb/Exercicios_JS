@@ -34,5 +34,8 @@ cursos.map((el,chave)=>{
      novoElemento.addEventListener("click",(evt)=>{
         
         caixa1.removeChild(evt.target.parentNode)
+        
+        
      })
  })
+
