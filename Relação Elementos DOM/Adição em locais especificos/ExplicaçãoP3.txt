@@ -1,0 +1,1 @@
+A primeira coisa a se fazer neste exemplo, será criar uma função que irá adiocionar um novo curso(div). Será usado o método insertBefore() para adicionar o novo elemento antes do elemento que está sendo passado como parâmetro. 

@@ -1,0 +1,21 @@
+Será usado praticamente a mesma função de selecionar elementos, porém, será usado a função remove() para remover os elementos selecionados em um novo botão. <label for="">Nome do Curso</label>
+
+btnCursoSelecionado.addEventListener("click",(evt)=>{
+    const rs=radioSelecionado()
+    if(rs==undefined){
+     const cursoSelecionado=rs.parentNode.previousSibling.textContent
+    
+     alert("Curso selecionado: " + cursoSelecionado) 
+    }else{
+        alert("Selecione um curso")
+    }
+    
+})
+
+// remover curso
+
+btnRemoverCurso.addEventListener("click",(evt)=>{
+    const rs=radioSelecionado()
+    const cursoSelecionado=rs.parentNode.parentNode
+   cursoSelecionado.remove()
+})
