@@ -1,0 +1,1 @@
+O método find() permite pesquisar um elemento de um array e irá retornar true o elemento.
