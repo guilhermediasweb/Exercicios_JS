@@ -1,0 +1,1 @@
+Ele verifica por equivalência. Se o elemento for igual, ele irá retornar True com os requisitos especificados da função. Todos devem equivaler a pesquisa.
