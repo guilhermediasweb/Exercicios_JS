@@ -1,0 +1,1 @@
+Se tiver pelo menos um valor correspondente ao pesquisado dentro do array, ele retornará como true.
