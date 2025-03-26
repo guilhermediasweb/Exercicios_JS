@@ -1,0 +1,7 @@
+Reduce irá reduzir um array mas sendo em especifico dentro do código. Será programado como será a redução.
+
+
+Função base - a única diferença será dentro da função.reduce.
+btnReduzir.addEventListener("click", (evt)=>{
+    elementos_array.reduce((anterior,atual,pos)=>())
+})
