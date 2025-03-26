@@ -99,3 +99,4 @@ btnAddNovoCursoDepois.addEventListener("click",(evt)=>{
     }
 
 }) //o insertBefore() irá adicionar o novo curso antes do próximo irmão do curso selecionado.
+
