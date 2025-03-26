@@ -1,0 +1,2 @@
+Iteradores são objetos que permitem percorrer uma coleção de dados, como arrays, strings ou outros elementos de estruturas, de forma sequencial.
+Dentro da função iterador, será usado e muito o .next() para que o iterador retorne o próximo valor - console.log(it_valores.next()). Dentro do Node.js, será mostrado o done, no qual é um booleano que indica se o iterador chegou ao final da coleção. Se done chegar ao true, quer dizer que o iterador chegou ao final da coleção.
