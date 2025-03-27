@@ -1,0 +1,1 @@
+Array é uma coleção de dados, uma coleção de variáveis e valores. Pode ser armazenado string, números, objetos, funções e outros arrays. Possível unir dois arrays em um único, basta criar um novo e adicionar com ','.
