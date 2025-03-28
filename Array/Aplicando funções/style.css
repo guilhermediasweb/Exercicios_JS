@@ -8,6 +8,29 @@
     font-size: large;
 }
 
+.valor{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.valor input{
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.operacoes{
+    display: flex;
+}
+
+button{
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+}
 .caixa{
     border: 5px solid black;
     width: 400px;
