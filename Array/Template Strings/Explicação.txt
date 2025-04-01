@@ -1,0 +1,2 @@
+Template strings é a forma mais atualizada de tratar strings dentro de um array em JavaScript. Será usado um novo marcador `Exemplo ${NomeVar}`, e não os"". Pular linhas com \n dentro do DOM, e <br/> dentro do HTML.
+

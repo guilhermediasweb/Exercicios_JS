@@ -1,0 +1,2 @@
+Set não aceita repetição de valores dos elementos. Possível sobrepor e concatenar coleções.
+

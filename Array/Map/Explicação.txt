@@ -1,0 +1,4 @@
+Map é a evolução do array. Sempre será adicionado uma chave. VAR nome= new Map();
+Não possui tantas propriedades quanto o array tradicional. Cada elemento em Map, será uma coleção de chave e valor. Ele irá se referenciar a uma chave e será chamado um valor.
+ForEach, delete, has, get vão indicar pelas chaves.
+
