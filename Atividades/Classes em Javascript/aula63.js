@@ -9,6 +9,14 @@ const btn_addCarro=document.querySelector("#btn_addCarro")
 
 let a_carros=[]//2 - Array para gerenciar os carros
 
+// 5 - Remoçãoo de Carros
+const removerCarro=(quem)=>{
+    a_carros=a_carros.filter((el)=>{
+        return el.nome!=quem
+    })  
+}
+
+
 // 1 - Radio de seleção
 
 f_tipoMilitar.addEventListener("click",(evt)=>{
@@ -33,13 +41,25 @@ const gerenciarCarros=()=>{
     carros.innerHTML=""
     a_carros.forEach((c)=>{
         const div=document.createElement("div")
+        const btn=document.createElement("button")// 4 - Criando o botão de remover
+
+    btn.innerHTML="Remover" 
+    btn.addEventListener("click",(evt)=>{
+        const quemRemover=evt.target.parentNode.dataset.nome
+        removerCarro(quemRemover)
+        console.log(a_carros)
+        gerenciarCarros()
+    })   
     div.setAttribute("class","carro")
+    div.setAttribute("data-nome",c.nome)
     div.innerHTML=`Nome: ${c.nome}<br/>`
     div.innerHTML+=`Portas: ${c.portas}<br/>`
     div.innerHTML+=`Blindagem: ${c.blindagem}<br/>`
     div.innerHTML+=`Munição: ${c.municao}<br/>`
     div.innerHTML+=`Cor: ${c.cor}<br/>`
+    
     carros.appendChild(div)
+    div.appendChild(btn)// 4 - Adicionando o botão de remover
     })
     
 }// 2 - Função para gerenciar e criar carros
@@ -60,7 +80,7 @@ class Carro{ //classe PAI / BASE
         this.portas=portas
         this.ligado=false
         this.vel=0
-        this.cor=undefined
+        this.cor="Roxo"
     }
     ligar=function(){
         this.ligado=true
