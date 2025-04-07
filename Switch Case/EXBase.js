@@ -18,3 +18,4 @@ switch(ranking){
         console.log("Seu Ranking é abaixo do TOP 3")
         break        
 }
+
