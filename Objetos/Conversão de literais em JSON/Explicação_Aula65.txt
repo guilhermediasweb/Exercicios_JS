@@ -1,0 +1,2 @@
+A conversão de literais em JSON será útil quando for preciso enviar dados para uma API de dados, o mesmo o contrário também é válido.
+Dentro de JSON., existem dois métodos importantes, o stringfy e o parse. stringfy converte um objeto literal em uma string JSON. Parse converte uma string JSON em um objeto literal.

@@ -1,0 +1,1 @@
+Membro Static pode ser invocado sem a necessidade de instanciar um objeto, possível chamar um método ou propriedade sem a necessidade de instanciar um objeto. Static pertecence a classe e não a um objeto.
