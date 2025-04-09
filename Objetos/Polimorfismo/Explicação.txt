@@ -1,0 +1,1 @@
+Polimorfismo é a capacidade de um objeto ter várias formas/comportamentos diferentes, dois elementos com comportamentos diferentes. Possível ter construtores com propriedades diferentes.
