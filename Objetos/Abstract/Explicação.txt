@@ -1,0 +1,1 @@
+Classe abstrata é uma classe que não pode ser instanciada, ela só será usada como base para outras classes(só pode ser extendida).
