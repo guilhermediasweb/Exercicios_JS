@@ -4,7 +4,8 @@ const teclaRes=document.querySelector("#tigual")
 
 const display=document.querySelector(".display")
 
-const ton=document.getElementById("ton")
+const tcpy=document.getElementById("tcpy")
+const teste=document.getElementById("teste")
 const tlimpar=document.getElementById("tlimpar")
 const tigual=document.getElementById("tigual")
 
@@ -64,5 +65,12 @@ tigual.addEventListener("click",(evt)=>{
     decimal=false
     const res=eval(display.innerHTML)
     display.innerHTML=res
+})
+
+//uso de clipboard para transferir o resultado para outro lugar
+tcpy.addEventListener("click",(evt)=>{
+    //teste.select()//marcação para mobile
+   // teste.setSelectionRange(0,99999)//marcação para mobile
+    navigator.clipboard.writeText(display.innerHTML)
 })
 
