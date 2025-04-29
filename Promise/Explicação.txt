@@ -1,0 +1,1 @@
+Promise é uma funcionalidade antiga de JS, ela resolve o problema assincrono de JS. Promise é uma 'promessa' dentro de JS, já que ela irá retornar um valor quando ela acabar de ser resolvida. Para API, Promise irá executar outras funções enquanto a API não retorna.

@@ -1,0 +1,5 @@
+Aba Gaveta/elemento retrátil
+
+Primeiro de tudo - Criar duas divs, uma para a calculadora como um todo, e antes da div calculadora, criar uma div para ser a aba.
+
+Após as configurações em CSS, chamar a calc_aba, criar um addEventListener para ela. Chamar também a calc. Calc irá usar o classList.toggle para mostrar e ocultar a calculadora.
