@@ -1,0 +1,23 @@
+Para começar a manipular datas, será usada a classe Date
+const data=new Date() 
+
+console.log(data) - retorna a data atual no console do navegador e do node.js. Possível tanto usar o new Date() dentro de console.log(). Date.now() retorna o número de milissegundos desde 1 de janeiro de 1970, 00:00:00 UTC, um time stamp. Possível converter o número em data e hora.
+
+Métodos e propriedades 
+getDate() - retorna o dia do mês
+getDay() - retorna o dia da semana(número)
+getFullYear() - retorna o ano
+getHours() - retorna a hora
+getMinutes() - retorna os minutos
+getSeconds() - retorna os segundos
+getMilliseconds() - retorna os milissegundos
+getTime() - Timestamp(milissegundos desde 1 de janeiro de 1970, 00:00:00 UTC)
+Date.now() - Timestamp(milissegundos desde 1 de janeiro de 1970, 00:00:00 UTC)
+getTimezoneOffset() - retorna a diferença entre o horário local e o horário UTC
+setDate() - define o dia do mês
+setFullYear() - define o ano
+setHours() - define a hora
+setMinutes() - define os minutos
+setSeconds() - define os segundos
+setMilliseconds() - define
+inDateString() - retorna a data no formato string
