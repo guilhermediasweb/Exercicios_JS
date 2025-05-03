@@ -1,0 +1,1 @@
+Math em javascript - Não será necessário instanciar a classe Math, pois ela já é uma classe global. Para mostrar valores inteiros, basta chamar o método math.floor(). Math.round() é parecido com o math.floor, mas a diferença é que ele arredonda o valor.
