@@ -1,0 +1,4 @@
+redirecionar para URL ou página específica - windo.location="url". Tanto para arquivos locais, quanto para arquivos externos.
+Dentro de Window.location, é possível usar outras propriedades, como:Replace, que substitui a URL atual pela URL especificada, retira do histórico. Assign, que atribui um valor à URL atual. O Assign não substitui a URL atual, como é possível voltar.
+Reload -  recarrega a página.
+A pagina não é redirecionada se estiver apenas com window.location=url.value e para resolver este caso, colocar onsubmit=event.preventDefault() dentro do form.
