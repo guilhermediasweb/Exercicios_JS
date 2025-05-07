@@ -1,0 +1,1 @@
+Nota - para impressão em PDF, o CSS deve ser mais simples.  window.print() no JS, simples. O ponto é q ele estará imprimindo o conteúdo da página(tela), não o arquivo.
