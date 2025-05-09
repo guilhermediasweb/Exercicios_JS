@@ -1,0 +1,6 @@
+Módulos são restos de códigos que podem ser importados para outros códigos. Sempre possível ser reutilizado em outros arquivos. Se for necessário usar uma função de outro arquivo, basta importar o módulo. O arquivo precisa estar rodando em um webserver, ou no live server do VS Code. O código precisa ser do type módulo. 
+Para usar algum código de outro arquivo, basta usar o export(dentro do arquivo que está o código) e o import dentro do arquivo que vai usar o código.
+
+Aula93 - Default pode ser usado como export default. Dentro de import, pode ser retirado as{}. Só será possível usar apenas uma vez o export default dentro de uma função.
+
+Importações nomeadas - Possível nomear as Importações com alias(as), a única adição além, será de um nome. É possível nomear todos os componentes de um arquivo, e ir escolhendo quais usar - import* as todos from. Para usar todos, basta colocar o nome.alias. Dentro do alias, será possível usar quaisquer componentes do módulo.
