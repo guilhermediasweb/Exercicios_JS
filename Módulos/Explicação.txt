@@ -4,3 +4,7 @@ Para usar algum código de outro arquivo, basta usar o export(dentro do arquivo 
 Aula93 - Default pode ser usado como export default. Dentro de import, pode ser retirado as{}. Só será possível usar apenas uma vez o export default dentro de uma função.
 
 Importações nomeadas - Possível nomear as Importações com alias(as), a única adição além, será de um nome. É possível nomear todos os componentes de um arquivo, e ir escolhendo quais usar - import* as todos from. Para usar todos, basta colocar o nome.alias. Dentro do alias, será possível usar quaisquer componentes do módulo.
+
+Exportando classes (aula95) - É possível exportar classes, usando o export default.
+
+Atividade - Será criado um formulário com os campos de: Nome, Email e Telefone. Para cada item cadastrado,será anotado em uma div lista como um banco de dados. Para iniciar em JS, criar três arquivos: Aula96, Banco de dados e contatos. O contatos será o arquivo onde tudo irá ocorrer, no qual ele será importado do arquivo Banco de dados.
