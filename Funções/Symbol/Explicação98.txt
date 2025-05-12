@@ -1,0 +1,5 @@
+A função symbol() retorna um objeto Symbol que possui um identificador único. É usado para criar identificadores únicos para propriedades de objetos/classes. Não poderá ser usado como identificador dentro do DOM, a não ser q seja associado à propriedades/membros de funções e classes.
+Usando o método for, é possível marcar um symbol como ''global'', ou seja, ele poderá ser usado em qualquer lugar do código.
+Keyfor poderá ser usado para obter o valor do symbol, apenas para os que possuem marcas globais.
+Possível colocar descrição dentro das (). Console log deve conter o nome da var e .description para obter a descrição.
+Dentro da variavel jogador(Aula100), é possível associar qualquer das atribuições para o symbol(ex-[nome]). Para acessar dentro do console.log, basta colocar [](console.log(jogador[nome])).
