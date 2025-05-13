@@ -1,0 +1,1 @@
+A maneira mais simples e tradicional de trabalhar com Strings em JS é utilizando a variavel.métodos. Possível também usar var=new String("valor escolhido'')
