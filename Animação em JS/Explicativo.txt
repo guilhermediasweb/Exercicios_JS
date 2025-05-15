@@ -1,0 +1,3 @@
+Será pega alguma propriedade (posicionamento, tamanho) do elemento e será alterado de acordo com o tempo. Colocar as propriedades base de position relative e left na div dentro do CSS.
+
+Diferença entre o setInterval e o setTimeOut: setInterval vai executar a função de acordo com o tempo que foi definido, já o setTimeOut gera um intervalo de tempo e depois executa a função.
