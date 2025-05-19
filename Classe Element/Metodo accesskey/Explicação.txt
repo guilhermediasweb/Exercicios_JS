@@ -1,0 +1,1 @@
+Accesskey permite acessar algum elemento HTML selecionando uma key definida. Para acessar a key selecionada, é preciso pressionar a tecla ALT e a tecla da key selecionada.

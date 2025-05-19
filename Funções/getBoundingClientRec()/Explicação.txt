@@ -1,0 +1,1 @@
+Um método que retorna as propriedades de tamanho e posição. Pertence ao objeto element. Passando por um console.log, será possível visualizar as propriedades de tamanho, posição(x,y) de um elemento, largura e altura de um objeto.
