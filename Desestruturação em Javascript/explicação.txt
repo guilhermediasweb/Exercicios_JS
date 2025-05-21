@@ -1,1 +1,13 @@
 Desestruturação é uma forma de extrair dados de arrays e objetos para utilizar em variedades distintas.1- Possível associar qualquer variável a qualquer valor dentro de um array(princípio 1 de Desestruturação). 2 - Possível associar valores em forma de objeto. 3-valores sendo atribuidos dentro de um array. 4- possível atribuir dentro das variaveis valores padrões. 5-possível extrair em funções
+
+P2 - Possívl usar Rest e Spread para desestruturar arrays e objetos. Para usar Spread, basta colocar 3 pontos antes do nome da variável. 
+,,irá extrair o próximo dado do array e atribuir a variável.
+
+Quando usar ; em JS
+
+Para antes de tudo, baixar no ECMAscript o pdf usado na aula, a 12 edição. Pesquisar sobre automatic semicolon insertion. O js faz a inserção automatica do ;, mas algumas situações podem gerar erros. MDN também pode ser usado como fonte de pesquisa, mas esta não é oficial.
+
+Exemplos- Em for ou qualquer outro loop, o ; é obrigatório. Caso ele não tenha um bloco de comandos, o ; é obrigatório. O ; será usado como termino de linha de instrução. caso 1 onde possui várias instruções em For e sem um bloco de código. caso 2 - mais de uma instrução na mesma linha
+// caso 3 - Ponto e vírgula obrigatório após o uso de [],{} na próxima linha.
+// caso 4 - uso obrigatório antes de ()
+// caso 5 - uso obrigatório antes de [] e optando sem criar uma nova variável antes do array que receba números, uma Desestruturação
