@@ -1,0 +1,9 @@
+
+Métodos de validação do DOM
+checkValidity()
+reportValidity()
+setCustomValidity()
+
+Propriedade de validação do DOM
+validity
+validationMessage
