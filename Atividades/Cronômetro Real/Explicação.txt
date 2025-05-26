@@ -1,0 +1,28 @@
+Um cronômetro real, utilizando Timestamp. Muito realista, sem incrimentos por variável.
+Será mais trabalhoso, "indústrial".
+Será obtido o Timestamp atual e a cada segundo, será pego um novo  Timestamp que resultará um valor em milisegundos.
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Your existing code that adds event listeners to the buttons
+    //7 botões
+    btn_iniciar.addEventListener("click",(evt)=>{
+        tmpini=Date.now()
+        intervalo=setInterval(contador,1000)
+    })
+
+    btn_parar.addEventListener("click",(evt)=>{
+        clearInterval(intervalo)
+    })
+
+    btn_zerar.addEventListener("click",(evt)=>{
+        tmpini=Date.now()
+        timer.innerHTML="00:00:00"
+        clearInterval(intervalo)
+    })
+
+    //9. botão parcial
+    btn_parcial.addEventListener("click",(evt)=>{
+        let parcial=timer.innerHTML
+        parciaisRegistradas.innerHTML+=parcial
+    })
+});
