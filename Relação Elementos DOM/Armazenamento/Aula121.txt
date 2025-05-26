@@ -1,0 +1,1 @@
+Métodos de uso para localStorage e sessionStorage são os mesmos. A diferença é que localStorage armazena dados mesmo quando o navegador é fechado, enquanto sessionStorage armazena dados apenas enquanto a janela do navegador está aberta. Webstorage é uma forma de armazenamento de dados no navegador que é mais rápido e eficiente do que o armazenamento local.
