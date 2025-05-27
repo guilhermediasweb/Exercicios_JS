@@ -1,0 +1,14 @@
+Um Header que poderá ser reaproveitado na criaação de outros projetos. O ponto aqui será de mudanças sutis que poderão ser feitas quando for reaproveitado.
+onde quiser, criar uma div e depois adicionar o arquivo topo.js.
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="topo.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="topo.css">
