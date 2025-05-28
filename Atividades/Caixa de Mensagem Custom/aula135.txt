@@ -1,0 +1,1 @@
+Uma caixa de mensagem personalizada. A ideia é construir ela baseando-se no que foi visto sobre header reaproveitável. Será criado um objeto literal para configuração, e passar esse objeto para o constrcutor da classe. Serão criados duas div, uma q ocupa o body todo, e outra será uma caixa. Dentro da caixa, será criados três divisões: título, corpo e rodapé.

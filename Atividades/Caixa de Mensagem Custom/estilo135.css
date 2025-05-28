@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.btn_mostrarcmsg{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
